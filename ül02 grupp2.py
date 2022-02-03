@@ -4,9 +4,17 @@ import math
 # 31.01.2022
 
 
-#arvusüsteemid
-ks=input
+#kütusekulu arvutamine
+liitrid = int(input("sisesta liitrid: "))
+dist = int(input("sisesta vahemaa: "))
+kulub = liitrid/dist/100
+print(kulub)
 
+
+#arvusüsteemid
+arv = int(input("sisesta 10nd arv: "))
+print(bin(arv))
+print(hex(arv))
 
 
 #ajateisendus
